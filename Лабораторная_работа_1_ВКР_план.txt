@@ -1,0 +1,112 @@
+Лабораторная работа №2
+«Подготовка к выполнению выпускной квалификационной работы (ВКР)»
+Crypto Trading Platform
+
+Краткое описание:
+Веб-приложение для алгоритмической и ручной торговли криптовалютой с использованием Bybit API. Позволяет просматривать графики, использовать индикаторы и совершать торговые операции через удобный интерфейс.
+
+Используемый стек технологий:
+- Backend: Python, Flask, SQLAlchemy, PostgreSQL (опционально ClickHouse)
+- Frontend: React
+- База данных: PostgreSQL (основная), ClickHouse (для аналитики, опционально)
+- Контроль версий: Git, GitHub
+- Сборка и запуск: pip, npm/yarn
+
+Архитектура приложения:
+Архитектурный подход: MVC (Model-View-Controller)
+
+Backend (Flask):
+- Models: Описывают структуру данных и взаимодействие с БД (SQLAlchemy)
+- Views: Формируют ответы API (JSON) или рендерят шаблоны (если потребуется)
+- Controllers: Обрабатывают бизнес-логику, принимают запросы, вызывают модели и возвращают результат через views
+- config.py: Конфигурация приложения (ключи, строки подключения)
+- run.py: Точка входа
+
+Frontend (React):
+- src/: Исходный код React-приложения
+- public/: Статические файлы
+
+Взаимодействие компонентов:
+- Пользователь взаимодействует с React-интерфейсом
+- React отправляет запросы к Flask API
+- Flask обрабатывает запросы, взаимодействует с БД и возвращает данные
+
+Структура каталогов:
+backend/
+  app/
+    models/
+    views/
+    controllers/
+  migrations/
+  tests/
+  config.py
+  run.py
+  requirements.txt
+frontend/
+  src/
+  public/
+  package.json
+README.md
+
+Инструкции по запуску:
+
+Backend:
+1. Перейти в папку backend:
+   cd backend
+2. Установить зависимости:
+   pip install -r requirements.txt
+3. Запустить сервер:
+   python run.py
+
+Frontend:
+1. Перейти в папку frontend:
+   cd frontend
+2. Установить зависимости:
+   npm install
+3. Запустить React-приложение:
+   npm start
+
+Ссылка на удалённый репозиторий:
+(Добавьте ссылку на GitHub после публикации)
+
+Для расширения отчёта добавьте диаграмму архитектуры (например, с помощью mermaid или draw.io), описание ключевых модулей и их ответственности, а также примеры API-эндпоинтов и структуры данных.
+
+---
+
+Crypto Trading Platform
+
+Веб-приложение для алгоритмической и ручной торговли криптовалютой с использованием Bybit API, визуализацией графиков и индикаторов.
+
+Используемый стек технологий:
+- Backend: Python, Flask, SQLAlchemy, PostgreSQL, (опционально ClickHouse)
+- Frontend: React
+- Система контроля версий: Git (GitHub)
+
+Архитектура:
+- Backend реализован по паттерну MVC (Models, Views, Controllers)
+- Frontend — SPA на React
+- Взаимодействие между фронтендом и бэкендом через REST API
+
+Структура каталогов:
+- backend/app/models — модели данных
+- backend/app/views — представления (шаблоны, если используются)
+- backend/app/controllers — контроллеры (логика обработки запросов)
+- backend/app/static — статические файлы
+- backend/app/templates — HTML-шаблоны
+- frontend — исходный код React-приложения
+
+Установка и запуск:
+
+Backend:
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python run.py
+
+Frontend:
+cd frontend
+# инициализация React-проекта (например, с помощью create-react-app)
+
+Ссылка на репозиторий:
+https://github.com/z0f1ran/Traiding-Helper-Diplom.git
