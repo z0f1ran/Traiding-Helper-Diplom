@@ -66,8 +66,6 @@ npm install
 npm start
 ```
 
-Frontend development server runs on `http://localhost:3001`.
-
 ## API (основные конечные точки)
 - `GET /api/health`
 - `GET /api/assets`
