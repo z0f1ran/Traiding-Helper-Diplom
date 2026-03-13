@@ -32,7 +32,7 @@
 
 ## Ссылка на макет
 **Обязательно заменить перед сдачей:**
-- Макет (Figma/Adobe XD/Sketch): `ВСТАВЬТЕ_ССЫЛКУ_НА_МАКЕТ`
+- Макет (Figma/Adobe XD/Sketch): https://www.figma.com/design/8Frs1ahKqtgiqgAcb7owVh/Butov?node-id=0-1&t=FxepCt9s9GyKRKIZ-1
 
 ## Реализованные экраны (5)
 1. Дашборд
@@ -81,4 +81,4 @@ npm start
 
 ## Ссылка на репозиторий
 **Обязательно заменить перед сдачей:**
-- `ВСТАВЬТЕ_ССЫЛКУ_НА_GITHUB_РЕПОЗИТОРИЙ`
+- https://github.com/z0f1ran/Traiding-Helper-Diplom
